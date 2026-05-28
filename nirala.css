@@ -1,6 +1,6 @@
 
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-
+    
     :root {
       --gold: #C9A84C;
       --gold-light: #E8C97A;
@@ -227,7 +227,7 @@
     .hero-bg {
       position: absolute;
       inset: 0;
-      background: url('https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&q=80') center/cover no-repeat;
+     background: url('/assets/about1-new.jpg') center/cover no-repeat;
       transform: scale(1.1);
       animation: heroZoom 20s ease-in-out infinite alternate;
     }
